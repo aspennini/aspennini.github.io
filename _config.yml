@@ -1,2 +1,5 @@
 name: Alyssa S Pennini
 markdown: kramdown
+
+
+permalink: /blog/:year/:month/:day/:title
