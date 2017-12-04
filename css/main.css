@@ -15,6 +15,7 @@ nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
     text-align: center;
+    padding: 10px;
 }
 a {
     text-decoration: none;
@@ -68,7 +69,7 @@ footer {
 .share a:hover {
     background: white;
     border: 1px solid green;
-    color: red;
+    color: green;
 }
 
 ul.posts { 
