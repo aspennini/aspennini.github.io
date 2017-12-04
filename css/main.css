@@ -29,7 +29,7 @@ h1 {
     text-align: center;
 }
 h3 {
-    color: red;
+    color: green;
     font-size: 26px;
     font-weight: 700;
     padding: 20px 10px;
@@ -47,7 +47,7 @@ footer {
 }
 
 .share {
-    border: 1px solid LightGrey;
+    border-top: 1px solid #d5d5d5;
     padding: 40px 0px;
     position: relative;
     text-align: center;
@@ -55,8 +55,8 @@ footer {
 }
 
 .share a {
-    background: red;
-    border: 1px solid red;
+    background: green;
+    border: 1px solid green;
     border-radius: 3px;
     color: white;
     display: inline-block;
@@ -67,7 +67,7 @@ footer {
 
 .share a:hover {
     background: white;
-    border: 1px solid red;
+    border: 1px solid green;
     color: red;
 }
 
