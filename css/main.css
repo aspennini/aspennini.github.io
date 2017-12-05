@@ -15,16 +15,12 @@ body {
 .navigation li {
     font-weight: 100;
     letter-spacing: 2px;
-    padding: 20px;
     position: inline;
-    list-style: none;
+    list-style-type: none;
 }
 .navigation a {
     text-decoration: none;
-    background: darkgreen;
-    border: 1px solid darkgreen;
-    border-radius: 3px;
-    color: white;
+    color: darkgreen;
     display: inline-block;
     margin: 10px;
     padding: 14px;
@@ -38,7 +34,7 @@ h1 {
     text-align: center;
 }
 h3 {
-    color: green;
+    color: darkgreen;
     font-size: 16px;
     font-weight: 700;
 
@@ -65,14 +61,15 @@ footer {
 }
 
 .share a {
-    background: green;
-    border: 1px solid green;
+    background: darkgreen;
+    border: 1px solid darkgreen;
     border-radius: 3px;
     color: white;
     display: inline-block;
     margin: 10px;
     padding: 10px;
     text-decoration: none;
+    list-style-type: none;
 }
 
 .share a:hover {
