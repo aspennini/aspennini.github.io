@@ -5,15 +5,19 @@ body {
     background-image: url("dandelion.jpg")
 }
 .navigation ul {
+    border-top: 1px solid #d5d5d5;
     font-family:'Quicksand', sans-serif;
-    margin: 0;
-    padding: 0;
+    padding: 20px 0px;
+    position: relative;
     text-align: center;
+    width: 50%;
 }
 .navigation li {
     font-weight: 100;
     letter-spacing: 2px;
     padding: 20px;
+    position: inline;
+    list-style: none;
 }
 .navigation a {
     text-decoration: none;
@@ -57,7 +61,7 @@ footer {
     padding: 20px 0px;
     position: relative;
     text-align: center;
-    width: 100%;
+    width: 50%;
 }
 
 .share a {
