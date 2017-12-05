@@ -19,7 +19,6 @@ nav ul li, footer ul li {
 }
 a {
     text-decoration: none;
-    color: #999;
 }
 a:hover {
     text-decoration: underline;
@@ -33,7 +32,7 @@ h3 {
     color: green;
     font-size: 16px;
     font-weight: 700;
-    padding: 10px 10px;
+
     text-align: center;
     font-family: 'Garamond';
 }
@@ -50,7 +49,7 @@ footer {
 
 .share {
     border-top: 1px solid #d5d5d5;
-    padding: 40px 0px;
+    padding: 20px 0px;
     position: relative;
     text-align: center;
     width: 100%;
@@ -63,7 +62,7 @@ footer {
     color: white;
     display: inline-block;
     margin: 10px;
-    padding: 14px;
+    padding: 10px;
     text-decoration: none;
 }
 
