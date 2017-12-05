@@ -4,23 +4,29 @@ body {
     width: 70%;
     background-image: url("dandelion.jpg")
 }
-nav ul, footer ul {
+.navigation ul {
     font-family:'Quicksand', sans-serif;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     list-style: none;
-    font-weight: bold;
     text-align: center;
 }
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
-    text-align: center;
-    padding: 10px;
+.navigation li {
+    font-weight: 100;
+    letter-spacing: 2px;
+    padding: 20px;
 }
-a {
+.navigation a {
     text-decoration: none;
+    background: darkgreen;
+    border: 1px solid darkgreen;
+    border-radius: 3px;
+    color: white;
+    display: inline-block;
+    margin: 10px;
+    padding: 14px;
 }
-a:hover {
+.naviation a:hover {
     text-decoration: underline;
 }
 h1 {
